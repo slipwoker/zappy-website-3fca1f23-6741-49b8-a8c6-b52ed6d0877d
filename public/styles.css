@@ -1,14 +1,14 @@
 :root {
-  --primary-color: #2C3E50;
-  --secondary-color: #00B4A6;
-  --accent-color: #FF6B35;
-  --text-color: #212529;
+  --primary-color: #FF6B9D;
+  --secondary-color: #FFD93D;
+  --accent-color: #6BCB77;
+  --text-color: #2D3436;
   --light-text: #FFFFFF;
-  --bg-light: #FAFBFC;
+  --bg-light: #FFF5F7;
   --bg-white: #FFFFFF;
-  --nav-color: #2C3E50;
-  --nav-hover-color: #FF6B35;
-  --footer-bg: #2C3E50;
+  --nav-color: #2D3436;
+  --nav-hover-color: #FF6B9D;
+  --footer-bg: #2D3436;
   --footer-text: #FFFFFF;
 }
 
@@ -21,7 +21,7 @@
 body {
   font-family: 'Heebo', 'Arial', sans-serif;
   color: var(--text-color);
-  line-height: #212529;
+  line-height: 1.7;
   background: var(--bg-white);
 }
 
@@ -262,34 +262,34 @@ section {
 
 .btn-primary {
   background: var(--primary-color);
-  color: #2C3E50;
+  color: var(--light-text);
 }
 
 .btn-primary:hover {
-  background: #FF6B35;
+  background: #E55A8A;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(255,107,157,0.3);
 }
 
 .btn-secondary {
   background: var(--secondary-color);
-  color: #00B4A6;
+  color: var(--text-color);
 }
 
 .btn-secondary:hover {
-  background: #FF6B35;
+  background: #F0C830;
   transform: translateY(-2px);
 }
 
 .btn-outline {
   background: transparent;
   color: var(--primary-color);
-  border-color: #2C3E50;
+  border-color: var(--primary-color);
 }
 
 .btn-outline:hover {
   background: var(--primary-color);
-  color: #2C3E50;
+  color: var(--light-text);
 }
 
 .btn-large {
@@ -327,7 +327,7 @@ section {
   width: 70px;
   height: 70px;
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  border-radius: #00B4A6;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +344,7 @@ section {
   text-align: center;
   max-width: 700px;
   margin: 0 auto 3rem;
-  color: #6C757D;
+  color: #636E72;
 }
 
 .products-grid {
@@ -436,12 +436,12 @@ section {
 
 .check-list i {
   color: var(--accent-color);
-  font-size: #FF6B35;
+  font-size: 20px;
 }
 
 .cta-section {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  padding: #00B4A6;
+  padding: 30px 40px;
   text-align: center;
 }
 
@@ -488,7 +488,7 @@ section {
 
 .footer-social a:hover {
   background: var(--primary-color);
-  transform: #2C3E50;
+  transform: translateY(-3px);
 }
 
 .whatsapp-float {
@@ -497,7 +497,7 @@ section {
 
 .page-header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-  padding: #00B4A6;
+  padding: 30px 40px;
   text-align: center;
   color: var(--light-text);
 }
@@ -524,7 +524,7 @@ section {
 }
 
 .category-intro {
-  color: #6C757D;
+  color: #636E72;
   margin-bottom: 2rem !important;
 }
 
@@ -591,7 +591,7 @@ section {
   width: 80px;
   height: 80px;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-  border-radius: #FF6B35;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -620,7 +620,7 @@ section {
   width: 50px;
   height: 50px;
   background: var(--primary-color);
-  border-radius: #2C3E50;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -657,7 +657,7 @@ section {
   font-size: 48px;
   font-weight: 700;
   color: var(--primary-color);
-  margin-bottom: #2C3E50;
+  margin-bottom: 0.5rem;
 }
 
 .stat-label {
@@ -666,7 +666,7 @@ section {
 }
 
 .contact-section {
-  padding: #212529;
+  padding: 30px 40px;
 }
 
 .contact-grid {
@@ -694,7 +694,7 @@ section {
   width: 50px;
   height: 50px;
   background: var(--primary-color);
-  border-radius: #2C3E50;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -708,7 +708,7 @@ section {
 }
 
 .method-details p {
-  color: #6C757D;
+  color: #636E72;
   margin-bottom: 0.25rem !important;
 }
 
@@ -735,9 +735,9 @@ section {
 
 .form-group input,
 .form-group textarea {
-  width: #212529;
+  width: 100%;
   padding: 12px 16px;
-  border: 2px solid #FAFBFC;
+  border: 2px solid #DFE6E9;
   border-radius: 10px;
   font-size: 16px;
   font-family: inherit;
@@ -751,7 +751,7 @@ section {
 }
 
 .checkbox-group {
-  display: #2C3E50;
+  display: flex;
   align-items: center;
 }
 
@@ -862,7 +862,7 @@ section {
     font-size: 24px;
     z-index: 1000;
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    background: #00B4A6;
+    background: #25d366;
     color: white;
     text-decoration: none;
   }
@@ -946,11 +946,11 @@ img, picture, figure {
 
     /* Legal Footer Styles - WCAG AA Compliant */
     .legal-footer {
-      background-color: #2C3E50;
-      color: #FFFFFF;
+      background-color: #2c3e50;
+      color: #ffffff;
       padding: 20px 0;
       font-size: 14px;
-      border-top: 3px solid #00B4A6;
+      border-top: 3px solid #3498db;
     }
 
     .legal-footer .container {
@@ -980,7 +980,7 @@ img, picture, figure {
       text-align: center;
       width: 100%;
       padding-top: 15px;
-      border-top: 1px solid #FFFFFF;
+      border-top: 1px solid #ffffff;
       opacity: 0.3;
     }
 
@@ -1001,7 +1001,7 @@ img, picture, figure {
     }
 
     .legal-footer .footer-social a {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       text-decoration: none;
       font-size: 22px;
       transition: color 0.3s ease, transform 0.2s ease;
@@ -1015,13 +1015,13 @@ img, picture, figure {
     }
 
     .legal-footer .footer-social a:hover {
-      color: #00B4A6 !important;
+      color: #3498db !important;
       transform: scale(1.15);
       background-color: rgba(255, 255, 255, 0.2);
     }
 
     .legal-footer .footer-social a:focus {
-      outline: 2px solid #00B4A6;
+      outline: 2px solid #3498db;
       outline-offset: 2px;
       border-radius: 50%;
     }
@@ -1039,7 +1039,7 @@ img, picture, figure {
     }
 
     .legal-footer .footer-legal a {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       text-decoration: none;
       transition: color 0.3s ease, opacity 0.3s ease;
       font-weight: 500;
@@ -1047,19 +1047,19 @@ img, picture, figure {
     }
 
     .legal-footer .footer-legal a:hover {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       opacity: 1;
       text-decoration: underline;
     }
 
     .legal-footer .footer-legal a:focus {
-      outline: 2px solid #FFFFFF;
+      outline: 2px solid #ffffff;
       outline-offset: 2px;
       border-radius: 2px;
     }
 
     .legal-footer .separator {
-      color: #FFFFFF !important;
+      color: #ffffff !important;
       font-weight: 300;
       opacity: 0.7;
     }
@@ -1147,9 +1147,9 @@ img, picture, figure {
 
 /* Cookie Consent Customizations */
 :root {
-  --cc-btn-primary-bg: #00B4A6;
-  --cc-btn-primary-border: #00B4A6;
-  --cc-btn-primary-hover-bg: #00B4A6;
+  --cc-btn-primary-bg: #3b82f6;
+  --cc-btn-primary-border: #3b82f6;
+  --cc-btn-primary-hover-bg: #2269dd;
 }
 
 #cc--main {
@@ -1186,7 +1186,7 @@ img, picture, figure {
 
 /* Basic Accessibility Enhancements */
 :root {
-  --accessibility-focus: #2C3E50;
+  --accessibility-focus: #2D3436;
 }
 
 /* Skip link styles */
@@ -1315,9 +1315,9 @@ img, picture, figure {
 #mic-access-tool-general-button svg line,
 #mic-access-tool-general-button svg polyline,
 #mic-access-tool-general-button svg g {
-  fill: #2C3E50 !important;
-  stroke: #2C3E50 !important;
-  color: #2C3E50 !important;
+  fill: #2D3436 !important;
+  stroke: #2D3436 !important;
+  color: #2D3436 !important;
 }
 
 /* Target images if the icon is an img instead of SVG */
@@ -1338,7 +1338,7 @@ img, picture, figure {
 .mic-access-tool-box-header,
 div[id*="mic-access-tool-box"] header,
 div[id*="mic-access-tool-box"] .header {
-  background: #2C3E50 !important;
+  background: #2D3436 !important;
   color: white !important;
 }
 
@@ -1365,8 +1365,8 @@ div[id*="mic-access-tool-box"] .header * {
 #mic-access-tool-box button:hover,
 div[id*="mic-access-tool-box"] button.active,
 div[id*="mic-access-tool-box"] button:hover {
-  border-color: #2C3E50 !important;
-  color: #2C3E50 !important;
+  border-color: #2D3436 !important;
+  color: #2D3436 !important;
   background-color: rgba(45, 52, 54, 0.1) !important;
 }
 
@@ -1375,7 +1375,7 @@ div[id*="mic-access-tool-box"] button:hover {
 #mic-access-tool-box button[title*="Reset"],
 #mic-access-tool-box [class*="reset"],
 div[id*="mic-access-tool-box"] button[class*="reset"] {
-  background: #2C3E50 !important;
+  background: #2D3436 !important;
   color: white !important;
 }
 
