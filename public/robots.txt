@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toys-world-3fca1f23.zappy5.app/sitemap.xml
